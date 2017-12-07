@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .header {
     background-color: #ebebeb;
     text-align: center;
@@ -23,22 +27,61 @@
 
 .section {
     float: left;
+    clear: none;
     background-color: #ebebeb;
     text-align: center;
     width: 495px;
     padding: 20px;
     margin-left: 150px;
-    height: 200px;
-    
+    height: 270px;
 }
 
 .aside {
-    float: right;
+    float: left;
     background-color: #ebebeb;
     text-align: center;
-    width: 465px;
+    width: 445px;
     padding: 20px;
-    margin-left: 150px;
-    height: 200px;
-    
+    height: 270px;
+    margin-top: -21px;
+    margin-left: 20px;
 }
+
+.footer {
+    background-color: #ebebeb;
+    text-align: center;
+    width: 960px;
+    padding: 20px;
+    height: 90px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.article {
+    background-color: #777;
+    color: white;
+    width: 472px;
+    margin-left: -9px;
+    height: 180px;
+    padding: 2px;
+}
+
+.headers {
+    background-color: #ebebeb;
+    color: black;
+    width: 438px;
+    margin-left: 14px;
+    height: 45px;
+    padding: 1px;
+}
+
+.paragraph {
+    background-color: #ebebeb;
+    color: black;
+    width: 438px;
+    margin-left: 14px;
+    height: 45px;
+    margin-top: -8px;
+   
+}
+
